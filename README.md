@@ -30,7 +30,26 @@ fastboot flash boot boot.img
 ```
 fastboot reboot recovery
 ```
-切換至側載模式，使用 adb sideload 刷入 OTA 檔案
+- 切換至側載模式，使用 adb sideload 刷入 OTA 檔案
 ```
 adb sideload RisingOS-5.2.1-FINAL-STABLE-EOL-20241006-GAPPS-OFFICIAL-husky-ota-signed.zip
+```
+- 完成後必須清除使用者資料，使用裝置 recovery mode 中的 Factory reset >> Format data / factory reset >> Format data
+- 重新啟動裝置
+```
+adb reboot
+```
+# 更新 RisingOS
+- 重新啟動至 recovery
+```
+fastboot reboot recovery
+```
+- 切換至側載模式，使用 adb sideload 刷入更新的 OTA 檔案
+```
+adb sideload RisingOS-new-FINAL-STABLE-EOL-XXXXXXXX-GAPPS-OFFICIAL-husky-ota-signed.zip
+```
+- 無須清除使用者資料
+- 重新啟動裝置即可
+```
+adb reboot
 ```
