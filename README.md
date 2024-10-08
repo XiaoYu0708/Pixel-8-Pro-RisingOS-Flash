@@ -1,5 +1,6 @@
 # 資訊
 - [RisingOS Telegram](https://t.me/RisingOS_news)
+- [安裝參考](https://droidwin.com/install-evolution-x-android-13-rom-on-pixel-6a-6-6-pro-video/)
 # 準備工作
 ## 下載
 - [RisingOS for Husky (Pixel 8 Pro)](https://sourceforge.net/projects/risingos-for-husky/)
