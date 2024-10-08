@@ -34,6 +34,14 @@ fastboot reboot recovery
 ```
 adb sideload RisingOS-5.2.1-FINAL-STABLE-EOL-20241006-GAPPS-OFFICIAL-husky-ota-signed.zip
 ```
+- 如果收到以下錯誤訊息之一，則表示安裝成功，您可以將裝置重新啟動到作業系統，沒有任何問題
+```
+Total xfer: 1.00x
+adb: failed to read command: Success/No error
+adb: failed to read command: No error
+(~47%) adb: failed to read the command: No error
+adb: failed to read command: Undefined error: 0
+```
 - 完成後必須清除使用者資料，使用裝置 recovery mode 中的 Factory reset >> Format data / factory reset >> Format data
 - 重新啟動裝置
 ```
