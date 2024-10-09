@@ -23,9 +23,17 @@ fastboot flash dtbo dtbo.img
 ```powershell
 fastboot flash vendor_boot vendor_boot.img
 ```
+- 刷入 vendor_kernel_boot
+```powershell
+fastboot flash vendor_kernel_boot vendor_kernel_boot.img
+```
 - 刷入 boot
 ```powershell
 fastboot flash boot boot.img
+```
+- 刷入 init_boot
+```powershell
+fastboot flash init_boot init_boot.img
 ```
 - 重新啟動至 recovery
 ```powershell
