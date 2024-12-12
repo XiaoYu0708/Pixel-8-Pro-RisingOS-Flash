@@ -7,9 +7,11 @@
 - Official 版本
 ### 檔案
 - OTA File
-- boot.img
 - dtbo.img
 - vendor_boot.img
+- vendor_kernel_boot.img
+- boot.img
+- init_boot.img
 # 安裝
 - 重新啟動至 bootloader
 ```powershell
